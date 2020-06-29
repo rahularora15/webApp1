@@ -20,7 +20,7 @@ stages
   {
     steps
     {
-      bat "mvn package",
+      bat "mvn package"
 	  bat "java -jar target/dependency/webapp-runner.jar target/*.war"
     }
   }
